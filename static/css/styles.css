@@ -96,7 +96,7 @@ button:hover{
 }
 .image-gallery img{
     height: auto;
-    width: 50vh;
+    width: 25vw;
     margin: 40px 0;
     box-shadow: 10px 10px 20px teal;
 }
