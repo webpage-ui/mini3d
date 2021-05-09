@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body{
-    background-image: url("../images/bar.png");
+    background-image: url("../images/bg.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -55,6 +55,10 @@ button:hover{
 .icons a{
     margin: 20px;
 }
+.icons a img{
+    width: 32px;
+    height: 32px;
+}
 
 .row{
     display: flex;
@@ -73,6 +77,8 @@ button:hover{
 }
 .profile-image img{
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 .exterior{
     padding-left: 30%;
@@ -95,8 +101,8 @@ button:hover{
     justify-content: space-evenly;
 }
 .image-gallery img{
-    height: auto;
-    width: auto;
+    height: 240px;
+    width: 427px;
     margin: 40px ;
     box-shadow: 10px 10px 20px teal;
 }
