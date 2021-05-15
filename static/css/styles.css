@@ -67,7 +67,17 @@ button:hover{
 }
 .column{
     flex: 50%;
-    border: 1px solid white; 
+}
+.column-margin{
+    flex: 50%;
+    border: 1px solid white;
+}
+.column-extra{
+    border: 1px solid white;
+    margin-right: 200px;
+}
+.column-extra .content{
+    padding: 5px;
 }
 .profile-image{
     display: flex;
@@ -106,3 +116,4 @@ button:hover{
     margin: 40px ;
     box-shadow: 10px 10px 20px teal;
 }
+
