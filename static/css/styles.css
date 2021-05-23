@@ -44,6 +44,9 @@ footer{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
+footer a{
+    color: tomato;
+}
 
 .container{
     width: 50%;
