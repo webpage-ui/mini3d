@@ -20,7 +20,7 @@ h1{
 h4{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900
+    font-weight: 900;
 }
 h5{
     text-align: center;
@@ -29,6 +29,7 @@ p{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    font-weight: 600;
 }
 
 button{
@@ -36,6 +37,12 @@ button{
 }
 button:hover{
     background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .container{
