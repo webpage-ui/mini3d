@@ -54,6 +54,11 @@ footer a{
     background-color:rgba(0, 0, 0, 0.7);
     color: white;
     font-family: "Alegreya", serif;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
 }
 
 .icons{
@@ -127,3 +132,25 @@ footer a{
     box-shadow: 10px 10px 20px teal;
 }
 
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@-moz-keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+} 
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
