@@ -51,7 +51,8 @@ footer a{
 .container{
     width: 50%;
     margin: 0 auto; 
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
     color: white;
     font-family: "Alegreya", serif;
     animation: fadeIn 3s;
