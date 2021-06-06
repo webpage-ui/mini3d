@@ -51,6 +51,9 @@ footer{
 footer a{
     color: tomato;
 }
+ul, ol{
+    margin-left: 20px;
+}
 
 .container{
     width: 50%;
